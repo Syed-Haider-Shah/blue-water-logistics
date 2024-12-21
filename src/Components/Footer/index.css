@@ -1,0 +1,16 @@
+.footer {
+  background: rgb(33,41,54);
+  background: linear-gradient(122deg, rgba(33,41,54,1) 0%, rgba(33,41,54,1) 0%, rgba(33,41,54,0.9203139874113708) 94%);
+  box-shadow: 0 -10px 15px -3px rgba(0, 0, 0, 0.1), 0 -4px 6px -2px rgba(0, 0, 0, 0.05), 0 -10px 15px -3px rgba(0, 0, 0, 0.2), 0 -4px 6px -2px rgba(0, 0, 0, 0.1);
+  color: white;
+  height: 8vh;
+  font-weight: 300;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.footer-text {
+  margin-left: 15%;
+}
