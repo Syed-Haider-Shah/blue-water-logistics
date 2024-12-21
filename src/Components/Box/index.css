@@ -1,0 +1,38 @@
+
+.box {
+  display: flex;
+  height: 60%;
+  width: 30%;
+  align-items: center;
+}
+
+.left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 140px;
+  height: 100%;
+  width: 45%;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  width: 55%;
+  align-items: center;
+}
+
+.logo-box {
+  width: fit-content;
+}
+
+.content {
+  text-align: center;
+  font-size: 14px; 
+}
+
+.heading-box {
+  font-weight: 500;
+  font-size: 24px;
+}

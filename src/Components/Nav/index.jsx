@@ -1,21 +1,20 @@
 import Button from '../Button';
 import Logo from '../Logo';
-import SearchBar from '../SearchBar';
 import "./index.css";
 
 const Nav = () => {
   return(
-  <>
-  <nav className='nav'>
-    <Logo image='/Logo3.png' cusStyle='logo2' height="60"/>
-    <div className='hide-on-mobile'>
-    <Button title='Hats' cusStyle='nav-btn' dest='/detail?search=hats&page=1'/>
-    <Button title='Swimsuits' cusStyle='nav-btn' dest='/detail?search=swimsuits&page=1'/>
-    <Button title='Sunglasses' cusStyle='nav-btn' dest='/detail?search=sunglasses&page=1'/>
-    <Button title='Sandals' cusStyle='nav-btn' dest='/detail?search=sandals&page=1'/>
-    <Button title='Towels' cusStyle='nav-btn' dest='/detail?search=towels&page=1'/>
-    </div>
-  </nav>
+  <> 
+    <nav className='nav'>
+      <Logo image='/Logo12.svg' cusStyle='logo2' />
+      <div className='hide-on-mobile'>
+      <Button title='Home' cusStyle='nav-btn' dest='/'/>
+      <Button title='Our Product' cusStyle='nav-btn' dest='/vending'/>
+      <Button title='Instructions' cusStyle='nav-btn' dest='/instructions'/>
+      <Button title='About Us' cusStyle='nav-btn' dest='/about'/>
+      <Button title='Contact' cusStyle='nav-btn' dest='/contact'/>
+      </div>
+    </nav>
   </>
   )
 }
