@@ -1,5 +1,5 @@
 import { AboutUs, Contact, Home, Instructions, VendingMachine } from './Pages'
-import { Nav } from './Components'
+import { Footer, Nav } from './Components'
 import {  Routes, Route } from 'react-router-dom'
 
 
@@ -14,6 +14,7 @@ const App = () => {
        <Route path="/instructions" element={<Instructions />}/>
        <Route path="/vending" element={<VendingMachine />}/>
       </Routes> 
+      <Footer/>
     </>
   )
 }
