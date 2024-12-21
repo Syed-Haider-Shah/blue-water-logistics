@@ -1,0 +1,18 @@
+.logo2{
+  background: transparent;
+  height: 140px;
+  color: white;
+  padding: 0;
+}
+ .logo {
+  width: fit-content;
+  height: fit-content;
+  position:fixed;
+  left:20%;
+ }
+
+@media (max-width: 600px) {
+  .logo2 {
+      height: 60px;
+  }
+}
