@@ -27,6 +27,7 @@
 .section-3 {
   display: flex;
   width: 80%;
+  color: rgb(33,41,54);
 }
 
 .heading {

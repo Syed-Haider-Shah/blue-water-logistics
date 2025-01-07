@@ -1,5 +1,5 @@
-import { Box } from '../../Components';
-import { Lightbulb, BadgeDollarSign, Bot, ChartNoAxesCombined, Drill, Smile } from 'lucide-react';
+import { Box, ContactUs } from '../../Components';
+import { Lightbulb, BadgeDollarSign, Bot, ChartNoAxesCombined, Drill, SmilePlus } from 'lucide-react';
 import "./index.css"
 const Home = () => {
   return (
@@ -9,7 +9,7 @@ const Home = () => {
       <h1 className='heading'>Why Perfume Vending Machines?</h1>
       <div className='boxes'>
         <Box heading='Customer Convenience' text='Offer a curated collection of premium perfumes, customized to align with customer preferences and current trends, enhancing the luxury and convenience of your venue&apos;s offerings.'>
-        <Smile size={48} />
+        <SmilePlus size={48} />
           </Box>
         <Box heading='Minimal Space' text='The machine occupies a small, visible area in high-traffic locations like restrooms or lobbies, ensuring maximum exposure with minimal space usage.'>
           <Lightbulb size={48}/>
@@ -45,7 +45,8 @@ const Home = () => {
         </ul>
       </div>
     </div>
-    </div>
+    <ContactUs/>
+  </div>
   )
 }
 
