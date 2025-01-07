@@ -4,16 +4,9 @@
   height: 60%;
   width: 30%;
   align-items: center;
+  justify-content: center;
 }
 
-.left {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 140px;
-  height: 100%;
-  width: 45%;
-}
 
 .right {
   display: flex;

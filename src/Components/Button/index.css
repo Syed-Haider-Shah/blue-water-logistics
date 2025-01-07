@@ -40,3 +40,10 @@
   background: #449894;
   transition: background-color 0.2s ease-in-out, box-shadow 0.3s ease-in-out;
 }
+
+@media (max-width: 1080px) {
+  .nav-btn {
+    font-size: 10px;
+    color:red;
+  }
+}
