@@ -1,0 +1,19 @@
+.card {
+  width: 30%;
+  height: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.card-img {
+  border-radius: 10px;
+}
+
+.description {
+  text-align: center;
+}
